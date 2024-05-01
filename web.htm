@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<body>
+    <header>
+        <h1>To-Do App</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="left-pane">
+                <h2>Tasks-List</h2>
+                <div class="task-box">
+                    <p>Add tasks to your list by typing in the right side and pressing enter. You may then view pending task below.</p>
+                    <br>
+                    <ul id="task-list">
+                        <!-- Tasks will be added here dynamically -->
+                    </ul>
+                </div>
+            </div>
+            <div class="right-pane">
+                <h2>Add Task</h2>
+                <div class="add-task-box">
+                    <input type="text" id="task-input" placeholder="I need to...">
+                    <!-- <button id="add-task-btn">Add</button> -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="web.js"></script>
+</body>
+
+</html>
